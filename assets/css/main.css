@@ -772,6 +772,18 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[350\] {
+  width: 350;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
 .max-w-\[240px\] {
   max-width: 240px;
 }
@@ -997,6 +1009,10 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-center {
