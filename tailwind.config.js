@@ -7,6 +7,12 @@ module.exports = {
         center: true,
         padding: "1rem",
       },
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+        xl: "1440px",
+      },
       colors: {
         primary: "#643E96",
         secondary: "#F1ECFB",
@@ -22,7 +28,6 @@ module.exports = {
         twelfth:"#F6F8FC",
         twelveth:"#EDF1F9",
         thirteenth:"#DCD9D980",
-        
       },
       fontFamily: {
         primary: ["Noto Sans Arabic"],

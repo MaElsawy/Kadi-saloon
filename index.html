@@ -14,7 +14,7 @@
     <div class="container text-center flex flex-col">
         <!-- header -->
         <div class="flex justify-center items-center">
-            <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[80%] z-10">
+            <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[85%] z-10">
                 <div>
                     <img src="assets/imgs/LOGO.svg" alt="">
                 </div>
@@ -71,7 +71,7 @@
         </div>
         <!-- heading-1 -->
         <div class="mt-56 mb-16">
-            <h2 class="mb-10 text-5xl text-fifth font-bold leading-[60px]">اختر، احجز، وجدد إطلالتك مع كادي بيوتي </h2>
+            <h2 class="mb-10 text-4xl sm:text-5xl text-fifth font-bold leading-[60px]">اختر، احجز، وجدد إطلالتك مع كادي بيوتي </h2>
             <h2 class="m-auto mb-14 text-xl text-tenth font-medium max-w-[770px]">تصفح خدمات كادي بيوتي للوصول إلى أفضل صالونات وخبراء التجميل. احجز بكل سهولة واستعد لإطلالة جديدة تجمع بين الأناقة والفخامة.</h2>
             <button class="flex justify-center items-center p-4 bg-primary rounded-full text-white m-auto">
                 <img class="pl-2" src="assets/imgs/apple-logo 1.svg" alt="">
@@ -86,7 +86,7 @@
         </div>
         <!-- heading-2 -->
         <div id="around" class="mt-28 mb-32">
-            <h2 class="text-4xl text-third font-extrabold mb-8 leading-[60px]">كيف تستمتع بتجربتك الأولى بأفضل شكل</h2>
+            <h2 class="text-3xl sm:text-4xl text-third font-extrabold mb-8 leading-[60px]">كيف تستمتع بتجربتك الأولى بأفضل شكل</h2>
             <p class="text-xl text-tenth font-medium max-w-[860px] m-auto">ما أسهل إنك تستمتع بتجربتك الأولى بأفضل شكل! هنا نصايح بسيطة عشان تضمن تجربة مميزة من البداية للنهاية.</p>
         </div>
         <!-- اختار حدد اختار -->
@@ -161,22 +161,22 @@
         </div>
         <!-- جدولة المواعيد  ,  إعداد التقارير والتحليلات  , الفواتير الإلكترونية -->
         <div class="flex justify-center items-center m-auto mb-32 bg-twelveth rounded-full">
-            <div class="sm:ml-3">
-                <button id="Table-btn" onclick="showTable()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 bg-white rounded-full">
-                    <img id="Booking_1" class="sm:ml-2" src="assets/imgs/Booking_1.svg" alt="">
-                    <p id="Table-p" class="text-base font-bold text-third">جدولة المواعيد</p>
-                </button>
-            </div>
-            <div class="sm:ml-3">
-                <button id="Report-btn" onclick="showReport()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 rounded-full">
-                    <img id="Booking_2" class="sm:ml-2 hidden" src="assets/imgs/Booking_2.svg" alt="">
-                    <p id="Report-p" class="text-base font-bold text-tenth">إعداد التقارير والتحليلات</p>
+            <div>
+                <button id="Table-btn" onclick="showTable()" class="flex justify-center items-center m-1 pb-5 pt-5 pr-2 pl-2 sm:m-3 sm:pr-10 sm:pl-10 bg-white rounded-full">
+                    <img id="Booking_1" class="sm:ml-2 ml-1" src="assets/imgs/Booking_1.svg" alt="">
+                    <p id="Table-p" class="text-xs sm:text-sm md:text-base font-bold text-third">جدولة المواعيد</p>
                 </button>
             </div>
             <div>
-                <button id="Invoice-btn" onclick="showInvoice()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 rounded-full">
-                    <img id="Booking_3" class="sm:ml-2 hidden" src="assets/imgs/Booking_3.svg" alt="">
-                    <p id="Invoice-p" class="text-base font-bold text-tenth">الفواتير الإلكترونية</p>
+                <button id="Report-btn" onclick="showReport()" class="flex justify-center items-center m-1 pb-5 pt-5 pr-2 pl-2 sm:m-3 sm:pr-10 sm:pl-10 rounded-full">
+                    <img id="Booking_2" class="sm:ml-2 ml-1 hidden" src="assets/imgs/Booking_2.svg" alt="">
+                    <p id="Report-p" class="text-xs sm:text-sm md:text-base font-bold text-tenth">إعداد التقارير والتحليلات</p>
+                </button>
+            </div>
+            <div>
+                <button id="Invoice-btn" onclick="showInvoice()" class="flex justify-center items-center m-1 pb-5 pt-5 pr-2 pl-2 sm:m-3 sm:pr-10 sm:pl-10 rounded-full">
+                    <img id="Booking_3" class="sm:ml-2 ml-1 hidden" src="assets/imgs/Booking_3.svg" alt="">
+                    <p id="Invoice-p" class="text-xs sm:text-sm md:text-base font-bold text-tenth">الفواتير الإلكترونية</p>
                 </button>
             </div>
         </div>
@@ -219,7 +219,7 @@
             </div>
         </div>
         <!-- الأسئلة الشائعة -->
-        <div id="quthions" class="mb-64">
+        <div id="quthions" class="mb-40 lg:mb-64">
             <div>
                 <h2 class="text-4xl font-extrabold text-third mb-5">الأسئلة الشائعة</h2>
                 <p class="text-xl font-medium text-tenth">أجوبة سريعة لأكثر الأسئلة شيوعاً حول استخدام التطبيق.</p>
@@ -249,9 +249,9 @@
         <div class="mb-[70px]">
             <div class="flex flex-col lg:flex-row justify-around lg:items-end bg-twelfth rounded-[40px]">
                 <div class="lg:mb-10 pt-10 pb-10 pl-10 pr-10">
-                    <div class="text-right rounded-[40px] bg-twelveth p-3 flex flex-row justify-start items-start w-[350px]">
-                        <button id="Customer-btn" onclick="showCustomer()" class="pt-4 pb-4 pl-8 pr-8 text-base text-primary bg-white font-extrabold rounded-[40px]">تطبيق العميل</button>
-                        <button id="Partner-btn" onclick="showPartner()" class="pt-4 pb-4 pl-8 pr-8 text-base text-tenth font-medium rounded-[40px]">تطبيق الشريك</button>
+                    <div class="text-right rounded-[40px] bg-twelveth p-3 flex flex-row justify-start items-start max-w-[350px]">
+                        <button id="Customer-btn" onclick="showCustomer()" class="pt-4 pb-4 pl-8 pr-8 text-sm sm:text-base text-primary bg-white font-extrabold rounded-[40px]">تطبيق العميل</button>
+                        <button id="Partner-btn" onclick="showPartner()" class="pt-4 pb-4 pl-8 pr-8 text-sm sm:text-base text-tenth font-medium rounded-[40px]">تطبيق الشريك</button>
                     </div>
                     <div id="customer">
                         <h2 class="text-4xl font-bold text-eleventh text-right mt-10 leading-[60px]">حمل تطبيق كادي بيوتي الآن!</h2>
@@ -268,8 +268,8 @@
                             <img src="assets/imgs/correct.svg" alt="">
                             <p class="text-right mr-3 text-third text-base font-bold">تجربة مريحة وسريعة.</p>
                         </div>
-                        <div class="flex flex-row mt-10">
-                            <img class="ml-3" src="assets/imgs/Google Play.svg" alt="">
+                        <div class="flex sm:flex-row flex-col mt-10">
+                            <img class="ml-3 mb-5 sm:mb-0" src="assets/imgs/Google Play.svg" alt="">
                             <img src="assets/imgs/app store.svg" alt="">
                         </div>
                     </div>
