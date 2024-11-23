@@ -34,6 +34,13 @@ let booking2 = document.getElementById("Booking_2");
 let booking3 = document.getElementById("Booking_3");
 
 
+let tablebtn = document.getElementById("Table-btn");
+
+let reportbtn = document.getElementById("Report-btn");
+
+let invoicebtn = document.getElementById("Invoice-btn");
+
+
 let customer = document.getElementById("customer");
 
 let partner = document.getElementById("partner");
@@ -64,6 +71,13 @@ function showTable() {
     booking2.classList.add("hidden");
 
     booking3.classList.add("hidden");
+
+
+    tablebtn.classList.add("bg-white");
+
+    reportbtn.classList.remove("bg-white");
+
+    invoicebtn.classList.remove("bg-white");
 }
 function showReport() {
     table.classList.add("hidden");
@@ -89,6 +103,13 @@ function showReport() {
     booking2.classList.remove("hidden");
 
     booking3.classList.add("hidden");
+
+
+    tablebtn.classList.remove("bg-white");
+
+    reportbtn.classList.add("bg-white");
+
+    invoicebtn.classList.remove("bg-white");
 }
 function showInvoice() {
     table.classList.add("hidden");
@@ -98,6 +119,7 @@ function showInvoice() {
     invoice.classList.add("flex");
 
     invoice.classList.remove("hidden");
+
 
     tablep.classList.remove("text-third");
 
@@ -113,7 +135,25 @@ function showInvoice() {
     booking2.classList.add("hidden");
 
     booking3.classList.remove("hidden");
+
+
+    tablebtn.classList.remove("bg-white");
+
+    reportbtn.classList.remove("bg-white");
+
+    invoicebtn.classList.add("bg-white");
 }
+
+
+
+
+
+
+
+
+
+
+
 function showCustomer() {
 
     customer.classList.remove("hidden");

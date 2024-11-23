@@ -12,7 +12,7 @@
 </head>
 <body class="font-primary">
     <div class="container text-center flex flex-col">
-
+        <!-- header -->
         <div class="flex justify-center items-center">
             <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[80%] z-10">
                 <div>
@@ -69,7 +69,7 @@
     
             </header>
         </div>
-
+        <!-- heading-1 -->
         <div class="mt-56 mb-16">
             <h2 class="mb-10 text-5xl text-fifth font-bold leading-[60px]">اختر، احجز، وجدد إطلالتك مع كادي بيوتي </h2>
             <h2 class="m-auto mb-14 text-xl text-tenth font-medium max-w-[770px]">تصفح خدمات كادي بيوتي للوصول إلى أفضل صالونات وخبراء التجميل. احجز بكل سهولة واستعد لإطلالة جديدة تجمع بين الأناقة والفخامة.</h2>
@@ -80,16 +80,16 @@
             </button>
 
         </div>
-
+        <!-- img -->
         <div>
             <img class="m-auto" src="assets/imgs/big-ph.svg" alt="">
         </div>
-
+        <!-- heading-2 -->
         <div id="around" class="mt-28 mb-32">
             <h2 class="text-4xl text-third font-extrabold mb-8 leading-[60px]">كيف تستمتع بتجربتك الأولى بأفضل شكل</h2>
             <p class="text-xl text-tenth font-medium max-w-[860px] m-auto">ما أسهل إنك تستمتع بتجربتك الأولى بأفضل شكل! هنا نصايح بسيطة عشان تضمن تجربة مميزة من البداية للنهاية.</p>
         </div>
-
+        <!-- اختار حدد اختار -->
         <div class="flex justify-around items-center flex-col lg:flex-row mb-44">
             <div class="flex justify-center items-center flex-col lg:-mt-[125px] bg-gradient-to-b from-eighth to-ninth rounded-3xl border-2 border-seventh p-10 group">
                 <img class="-mt-[72px] -z-10" src="assets/imgs/Number 1.svg" alt="">
@@ -110,12 +110,12 @@
                 <p class="text-base font-medium max-w-[240px] text-tenth">اجهز لموعد خدمتك المحجوز واستمتع بأجمل اللحظات في صالونك المفضل.</p>
             </div>
         </div>
-
+        <!-- heading-3 -->
         <div id="Features" class="mb-32">
             <h2 class="font-extrabold text-4xl text-third mb-8 leading-[60px]">مميزات اضافية تختص بها كادي بيوتي</h2>
             <p class="font-medium text-xl text-tenth">مميزات خاصة تميز كادي بيوتي، تضمن لك تجربة فريدة وخدمات متكاملة تلبي كل احتياجاتكِ.</p>
         </div>
-
+        <!-- content -->
         <div class="mb-60">
             <div class="flex justify-around items-center flex-col-reverse lg:flex-row mb-16 lg:mb-32">
                 <div class="text-right max-w-[443px]">
@@ -154,33 +154,32 @@
                 </div>
             </div>
         </div>
-
+        <!-- heading-4 -->
         <div id="service" class="max-w-[800px] m-auto mb-20">
             <h2 class="mb-6 text-4xl text-third font-extrabold leading-[60px]">إدارة صالونك أصبحت أسهل مع نظام شامل من مكان واحد!</h2>
             <p class="text-xl font-medium text-tenth">في كادي، نحرص على تطوير مراكز التجميل من خلال تقديم حلول مبتكرة وخدمات تنافسية تضمن لك نموًا وجودة أعلى في عملك. اكتشف مميزات النظام</p>
         </div>
-
-        <div class="flex justify-center items-center m-auto mb-32">
+        <!-- جدولة المواعيد  ,  إعداد التقارير والتحليلات  , الفواتير الإلكترونية -->
+        <div class="flex justify-center items-center m-auto mb-32 bg-twelveth rounded-full">
             <div class="sm:ml-3">
-                <button onclick="showTable()" class="flex justify-center items-center md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5">
+                <button id="Table-btn" onclick="showTable()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 bg-white rounded-full">
                     <img id="Booking_1" class="sm:ml-2" src="assets/imgs/Booking_1.svg" alt="">
                     <p id="Table-p" class="text-base font-bold text-third">جدولة المواعيد</p>
                 </button>
             </div>
             <div class="sm:ml-3">
-                <button onclick="showReport()" class="flex justify-center items-center md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5">
+                <button id="Report-btn" onclick="showReport()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 rounded-full">
                     <img id="Booking_2" class="sm:ml-2 hidden" src="assets/imgs/Booking_2.svg" alt="">
                     <p id="Report-p" class="text-base font-bold text-tenth">إعداد التقارير والتحليلات</p>
                 </button>
             </div>
             <div>
-                <button onclick="showInvoice()" class="flex justify-center items-center md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5">
+                <button id="Invoice-btn" onclick="showInvoice()" class="flex justify-center items-center m-3 md:pb-5 md:pt-5 md:pr-10 md:pl-10 sm:pb-2 sm:pt-2 sm:pr-5 sm:pl-5 rounded-full">
                     <img id="Booking_3" class="sm:ml-2 hidden" src="assets/imgs/Booking_3.svg" alt="">
                     <p id="Invoice-p" class="text-base font-bold text-tenth">الفواتير الإلكترونية</p>
                 </button>
             </div>
         </div>
-
         <div class="mb-32">
             <div id="table" class="flex justify-center items-center lg:items-start flex-col-reverse lg:flex-row transition-all duration-500 ease-in-out">
                 <div class="max-w-[450px] text-right">
@@ -219,7 +218,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- الأسئلة الشائعة -->
         <div id="quthions" class="mb-64">
             <div>
                 <h2 class="text-4xl font-extrabold text-third mb-5">الأسئلة الشائعة</h2>
@@ -246,7 +245,7 @@
                 <p class="text-tenth text-xl font-semibold">+</p>
             </div>
         </div>
-
+        <!-- التطبيقات -->
         <div class="mb-[70px]">
             <div class="flex flex-col lg:flex-row justify-around lg:items-end bg-twelfth rounded-[40px]">
                 <div class="lg:mb-10 pt-10 pb-10 pl-10 pr-10">
@@ -300,7 +299,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- footer -->
         <div>
             <div class="flex flex-col lg:flex-row  justify-around items-center mb-0 lg:mb-10">
                 <div class="mb-10 lg:mb-0">
