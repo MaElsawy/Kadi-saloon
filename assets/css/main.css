@@ -692,22 +692,6 @@ video {
   margin-right: 0.75rem;
 }
 
-.mr-\[102px\] {
-  margin-right: 102px;
-}
-
-.mr-\[58px\] {
-  margin-right: 58px;
-}
-
-.mr-\[94px\] {
-  margin-right: 94px;
-}
-
-.mr-\[95px\] {
-  margin-right: 95px;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -744,6 +728,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -760,28 +752,16 @@ video {
   height: 100%;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
 
-.w-\[84\%\] {
-  width: 84%;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[350\] {
-  width: 350;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .max-w-\[240px\] {
@@ -814,6 +794,10 @@ video {
 
 .max-w-\[800px\] {
   max-width: 800px;
+}
+
+.max-w-\[850px\] {
+  max-width: 850px;
 }
 
 .max-w-\[860px\] {
@@ -898,9 +882,8 @@ video {
   border-color: #C691C199;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+.border-thirteenth {
+  border-color: #DCD9D980;
 }
 
 .bg-forth {
@@ -995,6 +978,10 @@ video {
   padding-left: 2rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1011,8 +998,12 @@ video {
   padding-top: 1rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
+.pb-\[60p\] {
+  padding-bottom: 60p;
+}
+
+.pb-\[60px\] {
+  padding-bottom: 60px;
 }
 
 .text-center {
@@ -1127,20 +1118,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.bg-blend-screen {
-  background-blend-mode: screen;
-}
-
-.bg-blend-darken {
-  background-blend-mode: darken;
-}
-
-.bg-blend-color-burn {
-  background-blend-mode: color-burn;
-}
-
-.bg-blend-saturation {
-  background-blend-mode: saturation;
+.underline {
+  text-decoration-line: underline;
 }
 
 .transition-all {
@@ -1161,11 +1140,6 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.group:hover .group-hover\:text-fifth {
-  --tw-text-opacity: 1;
-  color: rgb(60 63 79 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:text-primary {
@@ -1258,10 +1232,6 @@ video {
     display: none;
   }
 
-  .lg\:w-\[51\%\] {
-    width: 51%;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1272,5 +1242,17 @@ video {
 
   .lg\:items-end {
     align-items: flex-end;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:pb-\[90px\] {
+    padding-bottom: 90px;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 }
