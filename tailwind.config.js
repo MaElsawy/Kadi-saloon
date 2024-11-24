@@ -39,7 +39,7 @@ module.exports = {
         },
       },
       animation: {
-        fadeIn: 'fadeIn 1.5s ease-out',
+        fadeIn: 'fadeIn 2s ease-out',
       },
 
     },
