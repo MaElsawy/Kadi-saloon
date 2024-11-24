@@ -17,16 +17,16 @@
     <div class="container text-center flex flex-col">
         <!-- header -->
         <div class="flex justify-center items-center">
-            <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[85%] z-10">
+            <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[80%] z-10">
                 <div>
                     <img src="assets/imgs/LOGO.svg" alt="">
                 </div>
                 <div class="hidden lg:block">
                     <nav>
                         <ul class="flex justify-center items-center">
-                            <li class="pl-10 text-tenth font-semibold text-base"><a href="#around">حول</a></li>
-                            <li class="pl-10 text-tenth font-semibold text-base"><a href="#Features">الميزات</a></li>
-                            <li class="pl-10 text-tenth font-semibold text-base"><a href="#service">مزودي الخدمات</a></li>
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#around">حول</a></li>
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#Features">الميزات</a></li>
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#service">مزودي الخدمات</a></li>
                             <li class="text-tenth font-semibold text-base"><a href="#quthions">الأسئلة الشائعة</a></li>
                         </ul>
                     </nav>
@@ -230,25 +230,59 @@
                 <h2 class="text-4xl font-extrabold text-third mb-5">الأسئلة الشائعة</h2>
                 <p class="text-xl font-medium text-tenth">أجوبة سريعة لأكثر الأسئلة شيوعاً حول استخدام التطبيق.</p>
             </div>
-            <div onclick="toggleQuestion(this)" class="flex flex-row justify-between items-center p-8 m-auto mt-28 cursor-pointer border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-300">
-                <p  class="text-tenth text-xl font-semibold">هل أقدر أعدل أو ألغي الحجز؟</p>
-                <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-28">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">كيف أقدر أحجز خدمة؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
             </div>
-            <div onclick="toggleQuestion(this)" class="flex flex-row justify-between items-center p-8 m-auto mt-8 cursor-pointer border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-300">
-                <p class="text-tenth text-xl font-semibold">كيف أعرف إذا تم تأكيد الحجز؟</p>
-                <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-8">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">هل أقدر أعدل أو ألغي الحجز؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
             </div>
-            <div onclick="toggleQuestion(this)" class="flex flex-row justify-between items-center p-8 m-auto mt-8 cursor-pointer border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-300">
-                <p class="text-tenth text-xl font-semibold">وش يصير إذا ألغى مقدم الخدمة موعدي؟</p>
-                <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-8">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">كيف أعرف إذا تم تأكيد الحجز؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
             </div>
-            <div onclick="toggleQuestion(this)" class="flex flex-row justify-between items-center p-8 m-auto mt-8 cursor-pointer border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-300">
-                <p class="text-tenth text-xl font-semibold">هل أقدر أحجز موعد لشخص ثاني؟</p>
-                <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-8">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">وش يصير إذا ألغى مقدم الخدمة موعدي؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
             </div>
-            <div onclick="toggleQuestion(this)" class="flex flex-row justify-between items-center p-8 m-auto mt-8 cursor-pointer border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-300">
-                <p class="text-tenth text-xl font-semibold">كيف أشوف المواعيد القادمة؟</p>
-                <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-8">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">هل أقدر أحجز موعد لشخص ثاني؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
+            </div>
+            <div onclick="toggleQuestion(this)" class="m-auto border-2 border-thirteenth max-w-[850px] rounded-3xl transition-all duration-500 mt-8">
+                <div class="flex flex-row justify-between items-center p-8 m-auto cursor-pointer">
+                    <p  class="text-tenth text-xl font-semibold">كيف أشوف المواعيد القادمة؟</p>
+                    <p class="icon text-tenth text-xl font-semibold w-8 h-8">+</p>
+                </div>
+                <div class="paragraph hidden opacity-0 transition-all duration-300 pr-10 pb-10 pl-10 pt-0 text-right">
+                    <p class="text-sm font-medium text-tenth">المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                </div>
             </div>
         </div>
         <!-- التطبيقات -->

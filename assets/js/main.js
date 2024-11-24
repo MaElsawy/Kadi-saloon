@@ -211,14 +211,25 @@ function showPartner() {
 
 
 
-
 function toggleQuestion(element) {
 
-    element.classList.toggle("pb-32");
+
+    let paragraph = element.querySelector(".paragraph");
+
+    if (!paragraph) {
+
+        paragraph = element.nextElementSibling;
+
+    }
+
+    paragraph.classList.toggle("hidden");
+
+    paragraph.classList.toggle("opacity-0");
 
     let icon = element.querySelector(".icon");
 
     icon.textContent = icon.textContent === "+" ? "-" : "+";
 
 }
+
 
