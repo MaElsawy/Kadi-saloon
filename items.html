@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadi Saloon | البنود</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body class="font-primary">
+    <div class="container text-center flex flex-col">
+        <div class="flex justify-center items-center">
+            <header class="fixed flex justify-between items-center m-auto p-5 top-7 bg-white rounded-full text-center w-[80%] z-10">
+                <div>
+                    <img src="assets/imgs/LOGO.svg" alt="">
+                </div>
+                <div class="hidden lg:block">
+                    <nav>
+                        <ul class="flex justify-center items-center">
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#around">حول</a></li>
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#Features">الميزات</a></li>
+                            <li class="pl-9 text-tenth font-semibold text-base"><a href="#service">مزودي الخدمات</a></li>
+                            <li class="text-tenth font-semibold text-base"><a href="#quthions">الأسئلة الشائعة</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex lg:hidden justify-center items-center">
+                    <p class="pl-1 text-sm text-gray-700 font-medium">القائمة</p>
+                    <img class="cursor-pointer" onclick="openNav()" src="assets/imgs/menu.svg" alt="">
+                </div>
+                <div id="sidebar" class="bg-secondary lg:hidden p-5 w-full h-full fixed top-0 left-0 transform -translate-x-full transition-transform duration-500">
+                    <div class="flex justify-between items-center">
+                        <img src="assets/imgs/LOGO.svg" alt="">
+                        <img onclick="closeNav()" class="cursor-pointer" src="assets/imgs/close.svg" alt="">
+                    </div>
+                    <div class="mt-20">
+                        <nav>
+                            <ul class="flex flex-col justify-start items-start">
+                                <li class="p-4 text-third font-extrabold text-2xl"><a href="#around">حول</a></li>
+                                <li class="p-4 text-third font-extrabold text-2xl"><a href="#Features">الميزات</a></li>
+                                <li class="p-4 text-third font-extrabold text-2xl"><a href="#service">مزودي الخدمات</a></li>
+                                <li class="p-4 text-third font-extrabold text-2xl"><a href="#quthions">الأسئلة الشائعة</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div>
+                        <div>
+                            <p class="mt-32 text-base text-third text-center font-bold">تابعونا على وسائل التواصل الاجتماعي</p>
+                        </div>
+                        <div class="flex justify-center items-center mt-5">
+                            <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/X.svg" alt="">
+                            <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/instgram.svg" alt="">
+                            <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/web.svg" alt="">
+                            <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/gmail.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class=" hidden lg:flex justify-center items-center text-white">
+                    <button class="flex justify-center items-center p-4 bg-primary rounded-full">
+                        <img class="pl-2" src="assets/imgs/apple-logo 1.svg" alt="">
+                        <img class="border-r-2 pr-2 pl-2" src="assets/imgs/playstore 1.svg" alt="">
+                        <p class="text-base font-semibold">تحميل التطبيق</p>
+                    </button>
+                </div>
+    
+            </header>
+        </div>
+        <div class="mt-56 mb-[300px] text-right flex flex-col justify-center max-w-[850px] m-auto">
+            <h2 class="m-auto text-5xl text-fifth font-bold mb-20">البنود</h2>
+            <p class="text-xl text-tenth font-normal text-justify mb-8">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال …</p>
+            <h2 class="text-third text-xl font-bold mb-3">لوريم ايبسوم</h2>
+            <p class="text-xl text-tenth font-normal text-justify mb-10">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+            <h2 class="text-third text-xl font-bold mb-3">لوريم ايبسوم</h2>
+            <p class="text-xl text-tenth font-normal text-justify mb-10">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+            <h2 class="text-third text-xl font-bold mb-3">لوريم ايبسوم</h2>
+            <p class="text-xl text-tenth font-normal text-justify mb-10">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+            <h2 class="text-third text-xl font-bold mb-3">لوريم ايبسوم</h2>
+            <p class="text-xl text-tenth font-normal text-justify mb-10">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+        </div>
+        <div>
+            <div class="flex flex-col lg:flex-row  justify-between items-center mb-0 lg:mb-10">
+                <div class="mb-10 lg:mb-0">
+                    <img src="assets/imgs/footer-logo.svg" alt="">
+                </div>
+                <div class="mb-10 lg:mb-0 lg:ml-32 lg:mr-10 ml-0 mr-0">
+                    <h2 class="lg:text-right text-xl text-third font-bold mb-4">اتصل بنا</h2>
+                    <p class="lg:text-right text-sm text-tenth font-bold mb-3">16781</p>
+                    <p class="lg:text-right text-sm text-tenth font-bold mb-3">contact_us@valu.com.eg</p>
+                    <p class="lg:text-right text-sm text-tenth font-bold mb-3">ميدان أركان، مدينة الشيخ زايد، الطابق الأول وحدة AW-0154</p>
+                </div>
+                <div class="mb-10 lg:mb-0">
+                    <h2 class="lg:text-right text-xl text-third font-bold mb-5">تابعونا على وسائل التواصل الاجتماعي</h2>
+                    <div class="flex flex-row justify-center lg:justify-start">
+                        <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/gmail.svg" alt="">
+                        <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/web.svg" alt="">
+                        <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/instgram.svg" alt="">
+                        <img class="p-2 bg-forth ml-2 rounded-full" src="assets/imgs/X.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-around pb-[60px] lg:pb-[90px]">
+                <div class="hidden xl:flex opacity-0">
+                    <p class="text-sm text-tenth font-bold text-center">
+                        <span class="text-sm text-tenth underline font-bold mr-3">سؤال؟</span>
+                        <span class="text-sm text-tenth underline font-bold">اتصل بنا</span>
+                    </p>
+                </div>
+                <div class="mb-5 lg:mb-0 lg:mr-[70px] xl:mr-0 xl:ml-[180px] ml-0 mr-0">
+                    <p class="text-sm text-tenth font-bold text-center lg:text-right flex flex-col xl:flex-row">
+                        <span>© حقوق النشر 2020-2024. جميع الحقوق محفوظة.</span> 
+                        <span class="font-medium">Kadi Beauty, تطبيق كادي بيوتي.</span>
+                    </p>
+                </div>
+                <div class="">
+                    <p class="text-sm text-tenth font-bold text-center">
+                        <a href="privacy.html" class="text-sm text-tenth underline font-bold ml-3 lg:-mr-[170px] xl:-mr-[290px] mr-0">الخصوصية</a>
+                        <a href="items.html" class="text-sm text-tenth underline font-bold">البنود</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

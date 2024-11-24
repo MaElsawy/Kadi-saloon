@@ -29,7 +29,6 @@ module.exports = {
         twelveth:"#EDF1F9",
         thirteenth:"#DCD9D980",
         fourteenth:"#D1D5DB",
-        
       },
       fontFamily: {
         primary: ["Noto Sans Arabic"],
