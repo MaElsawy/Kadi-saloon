@@ -1429,6 +1429,22 @@ video {
     margin-left: 90px;
   }
 
+  .xl\:mr-\[255px\] {
+    margin-right: 255px;
+  }
+
+  .xl\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .xl\:-mr-\[290px\] {
+    margin-right: -290px;
+  }
+
+  .xl\:ml-\[180px\] {
+    margin-left: 180px;
+  }
+
   .xl\:flex {
     display: flex;
   }
