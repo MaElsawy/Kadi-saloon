@@ -205,12 +205,6 @@ function showPartner() {
     Partnerbtn.classList.add("bg-white");
 }
 
-
-
-
-
-
-
 function toggleQuestion(element) {
 
 
