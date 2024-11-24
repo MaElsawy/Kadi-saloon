@@ -204,3 +204,21 @@ function showPartner() {
 
     Partnerbtn.classList.add("bg-white");
 }
+
+
+
+
+
+
+
+
+function toggleQuestion(element) {
+
+    element.classList.toggle("pb-32");
+
+    let icon = element.querySelector(".icon");
+
+    icon.textContent = icon.textContent === "+" ? "-" : "+";
+
+}
+
