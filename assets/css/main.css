@@ -780,6 +780,22 @@ video {
   margin-top: 3.5rem;
 }
 
+.mb-\[35px\] {
+  margin-bottom: 35px;
+}
+
+.mb-\[290px\] {
+  margin-bottom: 290px;
+}
+
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
+
+.mb-\[00px\] {
+  margin-bottom: 00px;
+}
+
 .flex {
   display: flex;
 }
